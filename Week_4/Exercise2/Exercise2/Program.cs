@@ -10,6 +10,10 @@ namespace Exercise2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Wprowadź liczbę");
+            FizzBuzz fizzBuzz = new FizzBuzz();
+            var message = fizzBuzz.Calculate(Console.ReadLine());
+            Console.WriteLine(message);
         }
     }
 }
